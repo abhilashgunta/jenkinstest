@@ -6,6 +6,6 @@ terraform {
   backend "s3" {
     bucket         = "javahome-tf-12345678"
     key            = "terraform.tfstate"
-    region         = "ap-south-1"
+    region         = "us-east-1"
   }
 }
